@@ -163,10 +163,8 @@ addMove(pikachu, movimiento);
   */
  
  const getAttackModifier = (pokemones) => {
-
    (isWeakAgainst(pokemones) == true)?2:false;
-   (isStrongAgainst(pokemones) == true)?0.5:false;
-   
+   (isStrongAgainst(pokemones) == true)?0.5:false;   
 }
 
 console.log(getAttackModifier(pokemones))

@@ -1,0 +1,15 @@
+body.on { /* PARA EL TOGGLE*/
+    background-color: crimson;
+}
+
+.nvanoticia {
+    padding: 5%;
+    margin-bottom: 2%;
+}
+.nva-clase {
+    background-color: burlywood;
+}
+
+#noticias.on {
+    background-color: cyan;
+}
