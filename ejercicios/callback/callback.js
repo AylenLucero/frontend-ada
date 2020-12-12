@@ -221,3 +221,7 @@ const takeWhile = (array, callback) => {
 const numeros6 = [40, 50, 33, 8, 2, 3, 20]
 // const multiploDe10 = (x) => x % 10 === 0
 console.log(takeWhile(numeros6, multiploDe10)) // [40, 50]
+
+
+// 0bce2b3619ac231ad6ce364b6d8015ab
+// https://www.themoviedb.org/

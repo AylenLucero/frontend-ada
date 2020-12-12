@@ -259,21 +259,23 @@ const section2 = document.getElementById("segundo");
 
 //10. Crear un documento html con un título que diga Mis canciones favoritas y una lista desordenada. Pedir mediante prompts por cinco canciones (una a la vez), y agregar esas canciones como ítems de la lista desordenada
 
-const div = document.createElement('div');
-const h1 = document.createElement('h1');
-const ul = document.createElement('ul');
-h1.setAttribute('class', 'text-center');
+// const div = document.createElement('div');
+// const h1 = document.createElement('h1');
+// const ul = document.createElement('ul');
+// h1.setAttribute('class', 'text-center');
 
-h1.innerHTML = 'Mis canciones favoritas'
+// h1.innerHTML = 'Mis canciones favoritas'
 
-for(i=0;i<5;i++) {
-    let canciones = prompt('Elija sus canciones: ');
-    const li = document.createElement('li');
+// for(i=0;i<5;i++) {
+//     let canciones = prompt('Elija sus canciones: ');
+//     const li = document.createElement('li');
     
-    li.innerHTML = canciones;
-    ul.appendChild(li)
-}
+//     li.innerHTML = canciones;
+//     ul.appendChild(li)
+// }
 
-div.appendChild(h1);
-div.appendChild(ul);
-section2.appendChild(div);
+// div.appendChild(h1);
+// div.appendChild(ul);
+// section2.appendChild(div);
+
+//11. Crear un documento html que muestre un número (empezando en 0) y 6 botones con los siguientes valores: -1, +1, -5, +5, -10, +10. Cuando se clickea un botón, se tiene que sumar o restar la cantidad correspondiente, y actualizar el número mostrado.
